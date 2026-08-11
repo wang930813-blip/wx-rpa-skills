@@ -9,7 +9,7 @@ import sys
 import time
 
 
-DEFAULT_SOURCE = "git+https://github.com/wang930813-blip/pywechat.git#subdirectory=src"
+DEFAULT_SOURCE = "git+https://github.com/wang930813-blip/wx-rpa.git#subdirectory=src"
 
 
 def log(message):

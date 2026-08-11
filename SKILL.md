@@ -18,7 +18,7 @@ It cannot replace local prerequisites: Windows desktop access, installed and log
 3. Let the script install missing dependencies from the maintained fork:
 
 ```text
-git+https://github.com/wang930813-blip/pywechat.git#subdirectory=src
+git+https://github.com/wang930813-blip/wx-rpa.git#subdirectory=src
 ```
 
 4. Select the package by WeChat version:
