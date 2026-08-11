@@ -1,0 +1,4 @@
+interface:
+  display_name: "WeChat RPA"
+  short_description: "Send and verify WeChat messages through pywechat/pyweixin."
+  default_prompt: "Use WeChat RPA to send a message."
