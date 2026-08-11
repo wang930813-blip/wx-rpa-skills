@@ -1,4 +1,4 @@
 interface:
   display_name: "WeChat RPA"
-  short_description: "Send and verify WeChat messages through pywechat/pyweixin."
-  default_prompt: "Use WeChat RPA to send a message."
+  short_description: "Automate Windows PC WeChat with pywechat/pyweixin."
+  default_prompt: "Use WeChat RPA for this Windows PC WeChat automation task."
