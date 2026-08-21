@@ -15,7 +15,7 @@ It cannot replace local prerequisites: Windows desktop access, installed and log
 
 1. Use `scripts/wechat_send.py` for deterministic text sending and verification.
 2. Let the script create or reuse `<workspace>\.venv`.
-3. Let the script install missing dependencies from the maintained fork:
+3. Let the script install missing dependencies from the maintained package source:
 
 ```text
 git+https://github.com/wang930813-blip/wx-rpa.git#subdirectory=src
@@ -40,7 +40,7 @@ Useful flags:
 |---|---|
 | Use a specific workspace | `--workspace "C:\path\to\workspace"` |
 | Send several texts | repeat `--message "..."` |
-| Force reinstall from the fork | `--force-install` |
+| Force reinstall from the configured source | `--force-install` |
 | Check setup/backend only | `--ensure-only` |
 | Skip UI verification | `--skip-verify` only when UI text cannot be inspected |
 
